@@ -46,6 +46,18 @@ select {
     font-weight: bold;
 } 
 
+button {
+    margin: 30px;
+    margin-left: 70px;
+    font-size: 32px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1105be;
+    font-weight: bolder;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: rgb(150, 204, 252);
+}
+
 div {
     background-color: rgb(176, 218, 255);
 }

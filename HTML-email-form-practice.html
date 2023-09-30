@@ -13,10 +13,6 @@
     </head>
 <!--=====================================================================-->
 <body>
-
-    
-<!--Lorem Ipsum-->
-
     <main>
         <form>
 <!-- Contact info fieldset -->
@@ -64,7 +60,7 @@
                     />
                 </div>
 
-            <!-- Form for location **optional -->
+            <!-- Form for address **optional -->
                 <div>
                     <label for="address"><h4>Mailing Address:</h4></label>
                     <input
@@ -81,7 +77,6 @@
             <fieldset>
                 <legend><h2>Message</h2></legend>
 
-                <!--email, phone, snail mail, or house call-->
             <!-- Radio buttons for preferred method of response **optional -->
                 <div>
                     <h4>Preferred method of response:</h4>
@@ -102,12 +97,10 @@
                         <label for="visit">House Call</label>
                 </div>
 
-                <!--compliment, concern, insult, request, boredom, ennui, existential crisis-->
             <!-- Dropdown menu for type of (or reason for) message **optional -->
                 <div>
                     <h4>Why are you reaching out to us today?</h4>
 
-                    <!--<label for="reason">Select a reason:</label>-->
                     <select name="reason" id="reason" size="1">
                         <option value="compliment">Compliment</option>
                         <option value="concern">Concern</option>
@@ -135,6 +128,8 @@
             </fieldset>
 
             <!--Submit/Reset buttons-->
+            <button type="submit" class="button-xlarge">Submit</button>
+            <button type="reset">Reset</button>
 
         </form>
     </main>
