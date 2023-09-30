@@ -1,16 +1,35 @@
-h3 {
+h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #1105be;
     font-weight: bolder;
 }
 
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1105be;
+    font-weight: bold;
+}
+
+h5 {
+
+}
+
 body {
     padding: 10px;
-  }
-  
-  input {
-    margin: 10px;
-    font-family: 'Courier New', Courier, monospace;
     color: #2060e9;
   }
   
+input {
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2060e9;
+}
+
+div {
+    background-color: rgb(176, 218, 255);
+
+}
+
+.div-message {
+    
+}
