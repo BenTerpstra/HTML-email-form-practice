@@ -2,16 +2,24 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #1105be;
     font-weight: bolder;
+    margin: 0px 0px 0px 0px;
 }
 
 h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #1105be;
     font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    text-decoration: underline;
 }
 
 h5 {
 
+}
+
+fieldset {
+    margin: 10px 10px 10px 10px;
 }
 
 body {
@@ -22,11 +30,16 @@ body {
 input {
     margin: 10px;
     font-family: 'Courier New', Courier, monospace;
-    color: #2060e9;
+    color: #1a5dec;
+    font-weight: 900;
 }
 
 div {
     background-color: rgb(176, 218, 255);
+
+}
+
+.div-dbl {
 
 }
 
