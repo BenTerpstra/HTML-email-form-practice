@@ -81,26 +81,49 @@
             <fieldset>
                 <legend><h2>Message</h2></legend>
 
-            <!-- Radio buttons for preferred method of response **optional, default 'general' -->
+                <!--email, phone, snail mail, or house call-->
+            <!-- Radio buttons for preferred method of response **optional -->
                 <div>
-                    <label for="method"><h4>Preferred method of contact:</h4></label>
-                    <input
-                        id=""
-                        type=""
-                        name=""
-                        placeholder=""
-                    />
+                    <h4>Preferred method of response:</h4>
+
+                        <input id="email" name="method" type="radio" value="email"/>
+                        <label for="email">email</label>
+
+                        <input id="call" name="method" type="radio" value="call"/>
+                        <label for="call">Phone Call</label>
+
+                        <input id="text" name="method" type="radio" value="text"/>
+                        <label for="text">Text Message</label>                        
+
+                        <input id="mail" name="method" type="radio" value="mail"/>
+                        <label for="mail">Snail Mail</label>
+
+                        <input id="visit" name="method" type="radio" value="visit"/>
+                        <label for="visit">House Call</label>
                 </div>
 
-            <!-- Dropdown menu for type of (or reason for) message **optional, default email -->
+                <!--compliment, concern, insult, request, boredom, ennui, existential crisis-->
+            <!-- Dropdown menu for type of (or reason for) message **optional -->
                 <div>
-                    <label for="reason"><h4>Reason for contact:</h4></label>
+                    <h4>Why are you reaching out to us today?</h4>
+
+                    <!--<label for="reason">Select a reason:</label>-->
+                    <select name="reason" id="reason" size="1">
+                        <option value="compliment">Compliment</option>
+                        <option value="concern">Concern</option>
+                        <option value="insult">Insult</option>
+                        <option value="request">Request</option>
+                        <option value="boredom">Boredom</option>
+                        <option value="ennui">Ennui</option>
+                        <option value="existential crisis">Existential Crisis</option>
+
                     <input
                         id=""
                         type=""
                         name=""
                         placeholder=""
                     />
+                    </select>
                 </div>
 
             <!-- Form for message **required -->
