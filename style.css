@@ -14,12 +14,8 @@ h4 {
     text-decoration: underline;
 }
 
-h5 {
-
-}
-
 fieldset {
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
 }
 
 body {
@@ -34,15 +30,16 @@ input {
     font-weight: 900;
 }
 
+textarea {
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1a5dec;
+    font-weight: 900;
+    width: 500px;
+    height: 100px;
+}
+
 div {
     background-color: rgb(176, 218, 255);
-
-}
-
-.div-dbl {
-
-}
-
-.div-message {
-    
 }
