@@ -40,6 +40,12 @@ textarea {
     height: 100px;
 }
 
+select {
+    margin: 10px;
+    color: #1a5dec;
+    font-weight: bold;
+} 
+
 div {
     background-color: rgb(176, 218, 255);
 }
